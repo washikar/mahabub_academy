@@ -1,0 +1,3094 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+a {
+    outline: 0px;
+    text-decoration: none;
+}
+ul, ol {
+    list-style: none;
+    margin-bottom: 0px;
+}
+h1, h2, h3, h4{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+a:focus, a:hover{
+    text-decoration: none;
+}
+img {
+    border: 0px;
+}
+@font-face {
+    font-family: 'Myriad-Pro';
+    src: url('../fonts/Myriad-Pro_31655.ttf');
+}
+@font-face {
+    font-family: 'Montserrat_Bold';
+    src: url('../fonts/Montserrat-Bold.ttf');
+}
+@font-face {
+    font-family: 'Montserrat_Reg';
+    src: url('../fonts/Montserrat-Regular.ttf');
+}
+@font-face {
+    font-family: 'Montserrat_Med';
+    src: url('../fonts/Montserrat-Medium.otf');
+}
+@font-face {
+    font-family: 'Roboto_Black';
+    src: url('../fonts/Roboto-Black.ttf');
+}
+@font-face {
+    font-family: 'Roboto_Reg';
+    src: url('../fonts/Roboto-Regular.ttf');
+}
+@font-face {
+    font-family: 'Roboto_Med';
+    src: url('../fonts/Roboto-Medium.ttf');
+}
+body {
+    font-family: 'Montserrat_Reg';
+}
+
+/* ========== Basic CSS Code ends ========== */
+
+#header{
+    position: fixed;
+    z-index: 99999;
+    width: 100%;
+}
+#header .navbar-brand-centered {
+    position: absolute;
+    left: 53%;
+    transform: translate(-50%);
+    background-color: transparent;
+    padding-top: 20px;
+}
+#header .navbar-brand-centered a {
+    color: #fff;
+    font-size: 26px;
+    font-family: 'Montserrat_Bold';
+    text-transform: uppercase;
+}
+#header .navbar-brand-centered a span {
+    font-size: 26px;
+    font-family: 'Montserrat_Reg';
+}
+#header .navbar-brand-centered a img {
+    padding-right: 5px;
+    display: inline-block;
+}
+#header .navbar {
+    background: #0b0c0f;
+    border-radius: 0px;
+    margin-bottom: 0;
+    height: 80px;
+    border-bottom: 2px solid #555557;;
+    
+}
+#header .navbar a {
+    color: #fff;
+    transition: all linear .2s;
+}
+#header .navbar a:hover {
+    color: #46bbc6;
+    background: none;
+}
+.navbar-form .form-group{
+    padding-top: 10px;
+}
+#header input .sers{
+    color: #118def;
+}
+#header input {
+    background: none;
+    border: 1px solid #118def;
+    border-radius: 30px;
+    height: 40px;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+#header .navbar a:hover{
+    color: #46bbc6;
+    text-decoration: none;
+}
+#header .navbar-right > li{
+    padding-top: 10px;
+}
+#header .navbar-right > li > a {
+    color: #118def;
+    font-family: 'Montserrat_Bold';
+    font-size: 22px;
+    border: 2px solid #118def;
+    border-radius: 30px;
+    padding: 10px 25px;
+}
+#header .navbar-right > li > a:hover {
+    color: #46bbc6;
+    border: 1px solid #46bbc6;
+}
+#header .navbar-right > li > a:focus {
+    background: none;
+}
+#header .navbar-nav > li{
+    padding-top: 15px;
+}
+#header .navbar-nav > li > a{
+    color: #118def;
+    font-family: 'Montserrat_Bold';
+    font-size: 18px;
+    border: 1px solid #118def;
+    border-radius: 30px;
+    padding: 10px 25px;
+}
+#header .navbar-nav > li > a:hover{
+    color: #46bbc6;
+    border: 1px solid #46bbc6;
+}
+#header .navbar-nav > li > a:focus{
+    background: none;
+}
+#header .form-control{
+    color: #46bbc6;
+}
+
+/* ========== Header CSS Code ends ========== */
+
+#banner{
+    padding-top: 80px;
+}
+#banner .carousel-caption{
+    top: 20%;
+}
+#banner .carousel-inner img{
+    height: 800px;
+    width: 100%;
+}
+#banner .carousel-caption h3{
+    color: #fff;
+    font-size: 45px;
+    font-family: 'Montserrat_Bold';
+    margin-bottom: 10px;
+}
+#banner .carousel-caption h3 span{
+    color: #118def;
+}
+#banner .carousel-caption h4{
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Montserrat_Med';
+    margin-bottom: 70px;
+}
+#banner .carousel-caption a{
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Montserrat_Bold';
+    background: #118def;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+#banner .left_arrow{
+    position: absolute;
+    top: 50%;
+    left: 40px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #118def;
+    border-radius: 50%;
+    line-height: 50px;
+    text-align: center;
+    color: #118def;
+}
+#banner .right_arrow{
+    position: absolute;
+    top: 50%;
+    right: 40px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #118def;
+    border-radius: 50%;
+    line-height: 50px;
+    text-align: center;
+    color: #118def;
+}
+.carousel-indicators li{
+    border-color: #118def;
+}
+#banner .carousel-indicators .active{
+    background: #118def;
+}
+#banner .carousel-caption a:hover{
+    color: #000;
+    background: #fff;
+}
+#banner .carousel-caption .bu_bnr{
+    text-align: center;
+}
+#banner .carousel-caption ul{
+    margin-top: 300px;
+}
+#banner .carousel-caption ul li{
+    display: inline-block;
+    padding-right: 150px;
+}
+#banner .carousel-caption ul li:last-child{
+    padding-right: 0px;
+}
+#banner .carousel-caption ul li a{
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Montserrat_Reg';
+    background: #1c1f38;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+#banner .carousel-caption ul li a:hover{
+    color: #000;
+    background: #fff;
+}
+
+/* ========== Banner CSS Code ends ========== */
+
+#sub_all {
+    padding: 50px 15px;
+    border-bottom: 1px solid #aaa;
+}
+#sub_all ul li a{
+    color: #675a5a;
+    font-size: 26px;
+    transition: all linear .2s;
+}
+#sub_all ul li a:hover{
+    color: #118def;
+}
+#sub_all ul li {
+    float: left;
+    padding-right: 32px;
+}
+#sub_all ul li:last-child {
+    padding-right: 0px;
+}
+
+/* ========== All Subject CSS Code ends ========== */
+
+#primary{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #1dabb8;
+}
+#primary .lst_ctr img{
+    display: inline-block;
+}
+#primary ul li a{
+    color: #1dabb8;
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 60px;
+    transition: all linear .2s;
+}
+#primary ul li a:hover{
+    color: #e2574c;
+}
+#primary h2{
+    padding: 36px 0 10px 0;
+    color: #675a5a;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+/* ========== Primary CSS Code ends ========== */
+
+#science{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #e2574c;
+}
+#science .lst_ctr img{
+    display: inline-block;
+}
+#science ul li a{
+    color: #e2574c;
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 60px;
+    transition: all linear .2s;
+}
+#science ul li a:hover{
+    color: #006df0;
+}
+#science h2{
+    padding: 36px 0 10px 0;
+    color: #675a5a;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+/* ========== Science CSS Code ends ========== */
+
+#commerce{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #006df0;
+}
+#commerce .lst_ctr img{
+    display: inline-block;
+}
+#commerce ul li a{
+    color: #006df0;
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 60px;
+    transition: all linear .2s;
+}
+#commerce ul li a:hover{
+    color: #c23c13;
+}
+#commerce h2{
+    padding: 36px 0 10px 0;
+    color: #675a5a;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+/* ========== Commerce CSS Code ends ========== */
+
+#arts{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #c23c13;
+}
+#arts .lst_ctr img{
+    display: inline-block;
+}
+#arts ul li a{
+    color: #c23c13;
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 60px;
+    transition: all linear .2s;
+}
+#arts ul li a:hover{
+    color: #006df0;
+}
+#arts h2{
+    padding: 36px 0 10px 0;
+    color: #675a5a;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+/* ========== Arts CSS Code ends ========== */
+
+#miscellaneous{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#miscellaneous .lst_ctr img{
+    display: inline-block;
+}
+#miscellaneous ul li a{
+    color: #006df0;
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 60px;
+    transition: all linear .2s;
+}
+#miscellaneous ul li a:hover{
+    color: #20d0c2;
+}
+#miscellaneous h2{
+    padding: 36px 0 10px 0;
+    color: #675a5a;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+/* ========== Miscellaneous CSS Code ends ========== */
+
+#academic{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #006df0;
+}
+#academic .lst_ctr img{
+    display: inline-block;
+}
+#academic ul li a{
+    color: #20d0c2;
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 60px;
+    transition: all linear .2s;
+}
+#academic ul li a:hover{
+    color: #c23c13;
+}
+#academic h2{
+    padding: 36px 0 10px 0;
+    color: #675a5a;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+/* ========== Academic CSS Code ends ========== */
+
+#contact{
+    background: #aaa;
+    padding-top: 180px;
+    padding-bottom: 100px;
+}
+#contact .con_brdr{
+    background: #fff;
+   border-radius: 30px; 
+}
+#contact .cont_img{
+    padding-top: 160px;
+    padding-bottom: 160px;
+    float: left;
+    padding-left: 100px;
+
+}
+#contact .pl0{
+    padding-right: 0px;
+}
+#contact .pr0{
+    padding-left: 0px;
+}
+#contact .cont_item .text_fields{
+    border: none;
+    border-radius: 50px;
+    height: 65px;
+    width: 530px;
+    background: #ebeef1;
+    padding: 10px 30px;
+    margin-bottom: 20px;
+}
+#contact .cont_item .send{
+    border: none;
+    border-radius: 50px;
+    height: 50px;
+    width: 160px;
+    background: #827ffe;
+    margin-bottom: 29px;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Montserrat_Bold';
+    transition: all linear .2s;
+}
+#contact .cont_item .send:hover{
+    background: #118def;
+}
+#contact .cont_item .message{
+    border: none;
+    border-radius: 30px;
+    height: 190px;
+    width: 530px;
+    background: #ebeef1;
+    padding: 20px 30px;
+    margin-bottom: 35px;
+}
+#contact .cont_item h3{
+    padding-top: 40px;
+    color: #675a5a;
+    font-size: 30px;
+    font-family: 'Montserrat_Bold';
+    padding-bottom: 25px;
+}
+
+/* ========== Contact CSS Code ends ========== */
+
+#video{
+    padding-top: 100px;
+    padding-bottom: 170px;
+    background: url(../images/video.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#video h2{
+    color: #fff;
+    font-size: 33px;
+    font-family: 'Montserrat_Bold';
+    border-bottom: 6px solid #fff;
+    padding-bottom: 12px;
+    display: inline-block;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#video p{
+    padding-top: 30px;
+    color: #e7e7e7;
+    font-size: 18px;
+    font-family: 'Montserrat_Reg';
+    line-height: 35px;
+}
+#video .play_btn a i{
+    position: absolute;
+    top: 175px;
+    left: 60%;
+    font-size: 50px;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 88px;
+    transition: all linear 0.3s;
+    border: 6px solid #fff;
+    border-radius: 50%;
+    padding-left: 12px;
+}
+#video .play_btn a:hover i{
+    color: #aaa;
+    border: 6px solid #aaa;
+}
+
+/* ========== Video CSS Code ends ========== */
+
+#team{
+    background: url(../images/team.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 180px;
+    padding-bottom: 100px;
+}
+#team h2{
+    color: #fff;
+    font-size: 33px;
+    font-family: 'Montserrat_Bold';
+}
+#team p{
+    padding-top: 30px;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Montserrat_Reg';
+    padding-bottom: 70px;
+}
+#team ul li{
+    float: left;
+    margin-right: 17px;
+    transition: all linear .2s;
+}
+#team ul li:last-child{
+    margin-right: 0px;
+}
+#team .box_stl{
+    width: 214px;
+    transition: all linear .2s;
+    background: #fff;
+    transition: all linear .2s;
+}
+#team .box_stl:hover{
+    box-shadow: 0px 0px 10px #ffffff;
+}
+#team .box_stl h1{
+    font-size: 17px;
+    color: #f18a8a;
+    font-family: 'Montserrat_Med';
+    padding-top: 20px;
+}
+#team .box_stl h2{
+    padding-top: 10px;
+    font-size: 12px;
+    color: #675a5a;
+    font-family: 'Montserrat_Reg';
+}
+#team .box_stl h3{
+    padding-top: 10px;
+    font-size: 12px;
+    color: #675a5a;
+    font-family: 'Montserrat_Reg';
+    padding-bottom: 15px;
+    border-bottom: 1px solid #675a5a;
+}
+#team ul li ul{
+    padding-top: 12px;
+    padding-bottom: 40px;
+    padding-left: 60px;
+}
+#team ul li ul li{
+    float: left;
+    padding-right: 20px;
+}
+#team ul li ul li a i{
+    font-size: 20px;
+    color: #675a5a;
+    transition: all linear .2s;
+}
+#team ul li ul .icon_f a i:hover{
+    color: #295396;
+    box-shadow: none;
+}
+#team ul li ul .icon_t a i:hover{
+    color: #00aced;
+    box-shadow: none;
+}
+#team ul li ul .icon_l a i:hover{
+    color: #007bb6;
+    box-shadow: none;
+}
+
+/* ========== Team CSS Code ends ========== */
+
+#footer {
+    background: #314453;
+   padding: 20px;
+    
+}
+#footer .ftext h3 {
+    font-size: 20px;
+    font-family: 'Montserrat_Bold';
+    color: #fff;
+    line-height: 45px;
+}
+#footer ul .foot_act{
+    font-size: 20px;
+    color: #fff;
+}
+#footer ul{
+    padding-left: 30px;
+}
+#footer ul li {
+    padding: 5px 0px;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Montserrat_Reg';
+}
+#footer ul li a {
+    color: #aaa;
+    font-size: 15px;
+    font-family: 'Montserrat_Reg';
+    transition: all linear .1s;
+}
+#footer ul li a:hover {
+    color: #fff;
+}
+#footer .lnge .lng_stl{
+    background: #021e39;
+    border: 0px;
+    border-radius: 3px;
+    width: 150px;
+    height: 25px;
+    font-size: 12px;
+    padding-left: 5px;
+}
+#footer .lnge{
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Montserrat_Med';
+}
+
+/* ========== Footer CSS Code ends ========== */
+
+#bootmftr {
+    border-top: 1px solid #fff;
+    background: #314453;
+}
+#bootmftr .foot li {
+    color: #fff;
+    float: left;
+    font-size: 12px;
+    font-family: 'Montserrat_Reg';
+    padding: 0px 5px;
+    line-height: 90px;
+}
+#bootmftr .foot li a {
+    color: #118def;
+    transition: all linear .1s;
+}
+#bootmftr .foot li a:hover{
+    color: #021e39;
+}
+#bootmftr .foot_icon ul li{
+    line-height: 90px;
+    float: right;
+}
+#bootmftr .foot_icon ul li a i{
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    transition: all linear .1s;
+}
+#bootmftr .foot_icon ul .icon_fb a i:hover{
+    background: #00aced;
+}
+#bootmftr .foot_icon ul .icon_tw a i:hover{
+    background: #295396;
+}
+#bootmftr .foot_icon ul .icon_ldn a i:hover{
+    background: #007bb6;
+}
+#bootmftr .foot_icon ul .icon_ytb a i:hover{
+    background: #ff0000;
+}
+
+/* ========== Footer Bootem CSS Code ends ========== */
+/* ========== Home Page CSS Code ends ========== */
+
+#sign_in{
+    padding-bottom: 100px;
+    padding-top: 80px;
+}
+#sign_in h2{
+    padding-top: 95px;
+    color: #444444;
+    font-size: 48px;
+    font-family: 'Montserrat_Bold';
+    padding-bottom: 60px;
+}
+#sign_in h2:after{
+    content:'';
+    background: #444444;
+    top: 125px;
+    left: 717px;
+    height: 2px;
+    width: 135px;
+    position: absolute;
+}
+#sign_in h2:before{
+    content:'';
+    background: #444444;
+    top: 125px;
+    right: 717px;
+    height: 2px;
+    width: 135px;
+    position: absolute;
+}
+#sign_in .sign_fields{
+    width: 384px;
+    height: 45px;
+    border: 1px solid #989898;
+    border-radius: 5px;
+    padding-left: 20px;
+    background: #f9f9f9;
+    font-size: 16px;
+    font-family: 'Montserrat_Reg';
+}
+#sign_in input{
+   margin-bottom: 35px; 
+}
+#sign_in .send{
+    background: none;
+    border: 2px solid #118def;
+    border-radius: 45px;
+    padding: 7px 48px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 21px;
+    color: #118def;
+    transition: all linear .2s;
+    margin-bottom: 80px;
+}
+#sign_in .send:hover{
+    color: #fff;
+    background: #118def; 
+}
+#sign_in a{
+    color: #118def;
+    font-size: 16px;
+}
+#sign_in .caccnt{
+    padding-bottom: 20px;
+}
+
+/* ========== Sign In Page CSS Code ends ========== */
+
+#sign_up{
+    padding-top: 140px;
+}
+#sign_up .sn_up{
+    padding-top: 25px;
+}
+#sign_up .sn_up ul li {
+    float: left;
+    padding-right: 35px;
+}
+#sign_up .sn_up ul li:last-child {
+    padding-right: 0px;
+}
+#sign_up .sn_up ul li a{
+    color: #444444;
+    font-size: 26px;
+    font-weight: 400;
+    transition: all linear .2s;
+}
+#sign_up .sn_up ul li a:hover{
+    color: #118def;
+    text-decoration: underline;
+}
+#sign_up .sn_up ul li a:focus{
+    color: #118def;
+    text-decoration: underline;
+}
+#sign_up .sn_up ul .sn_act a{
+    color: #118def;
+    text-decoration: underline;
+}
+#sign_up .sn_up ul .sn_act_par a{
+    color: #118def;
+    text-decoration: underline;
+}
+#sign_up .sn_up ul .sn_act_tcr a{
+    color: #118def;
+    text-decoration: underline;
+}
+#sign_up .sn_up h2{
+    padding-top: 70px;
+    color: #444444;
+    font-size: 35px;
+    font-family: 'Montserrat_Med';
+    line-height: 45px;
+    padding-bottom: 30px;
+}
+#sign_up .sn_up p{
+    color: #444444;
+    font-size: 24px;
+    line-height: 30px;
+}
+#sign_up .crt_ac h1 {
+    color: #444444;
+    font-size: 40px;
+    font-family: 'Montserrat_Med';
+    padding-bottom: 80px;
+}
+#sign_up .crt_ac h3{
+    padding-bottom: 10px;
+    padding-top: 15px;
+    color: #444444;
+    font-size: 18px;
+}
+#sign_up .crt_ac .send{
+    border: 2px solid #118def;
+    border-radius: 45px;
+    padding: 7px 75px;
+    font-size: 30px;
+    color: #118def;
+    transition: all linear .2s;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+#sign_up .crt_ac .send:hover{
+    color: #fff;
+    background: #118def; 
+}
+#sign_up .crt_ac{
+    background: #f9f9f9;
+    padding: 25px 0 50px 40px;
+}
+#sign_up .crt_ac .text_fields{
+    width: 470px;
+    height: 45px;
+    border: 1px solid #a8a8a8;
+    font-size: 14px;
+    padding: 0px 10px;
+    border-radius: 5px;
+}
+#sign_up .crt_ac .text_fields:focus{
+    border-color: #118def;
+}
+#sign_up .crt_ac .dt_stl{
+    width: 148px;
+    height: 45px;
+    border: 1px solid #a8a8a8;
+    font-size: 14px;
+    padding: 0px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+#sign_up .crt_ac .gender{
+    padding-right: 30px;
+}
+#sign_up .crt_ac h4{
+    color: #444444;
+    font-size: 22px;
+    padding-top: 30px;
+}
+#sign_up .crt_ac h4 a{
+    color: #118def;
+}
+#sign_up .crt_ac h4 a:hover{
+    text-decoration: underline;
+}
+#sign_up .crt_ac .agree{
+    padding-top: 20px;
+    color: #444444;
+    padding-bottom: 30px;
+}
+#sign_up .crt_ac .agree a{
+    color: #118def;
+}
+#sign_up .crt_ac .agree a:hover{
+    text-decoration: underline;
+}
+
+/* ========== Sign Up Page CSS Code ends ========== */
+
+#stu_prfl .prfl_head{
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+#stu_prfl .prfl_head h1{
+    padding-top: 40px;
+    color: #444444;
+    font-size: 32px;
+    font-family: 'Montserrat_Bold';
+}
+#stu_prfl .prfl_head h2{
+    padding-top: 20px;
+    color: #444444;
+    font-size: 20px;
+}
+#stu_prfl .item_nme h3{
+    padding-top: 30px;
+    color: #444444;
+    font-size: 24px;
+    font-family: 'Montserrat_Bold';
+}
+#stu_prfl .item_stl .text_fields{
+    margin-top: 19px;
+    width: 370px;
+    height: 40px;
+    border: 1px solid #a8a8a8;
+    font-size: 14px;
+    padding: 0px 10px;
+    border-radius: 5px;
+    background: #f6f3f3;
+}
+#stu_prfl .item_stl .text_fields:focus{
+    border-color: #118def;
+}
+#stu_prfl .item_stl .a_mar{
+    margin-bottom: 20px;
+}
+#stu_prfl .item_stl .gndr{
+    margin-top: 25px;
+    width: 370px;
+    height: 40px;
+    border: 1px solid #a8a8a8;
+    font-size: 14px;
+    padding: 0px 10px;
+    border-radius: 5px;
+    background: #f6f3f3;
+}
+#stu_prfl .item_stl .date_bd{
+    margin-top: 19px;
+    width: 113px;
+    height: 40px;
+    border: 1px solid #a8a8a8;
+    font-size: 14px;
+    padding: 0px 10px;
+    border-radius: 5px;
+    background: #f6f3f3;
+}
+#stu_prfl .item_stl .country{
+    margin-top: 21px;
+    width: 370px;
+    height: 40px;
+    border: 1px solid #a8a8a8;
+    font-size: 14px;
+    padding: 0px 10px;
+    border-radius: 5px;
+    background: #f6f3f3;
+}
+#stu_prfl .upgrt{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#stu_prfl .upgrt .send{
+    border: 2px solid #118def;
+    border-radius: 45px;
+    padding: 7px 75px;
+    font-size: 30px;
+    color: #118def;
+    transition: all linear .2s;
+}
+#stu_prfl .upgrt .send:hover{
+    color: #fff;
+    background: #118def; 
+}
+#stu_prfl .item_phto h3{
+    padding-top: 30px;
+    font-size: 16px;
+    color: #444444;
+    padding-bottom: 500px;
+}
+/* ========== Student Profile Page CSS Code ends ========== */
+
+#donate{
+    padding-top: 120px;
+    padding-bottom: 40px;
+}
+#donate h2{
+    color: #444444;
+    font-size: 33px;
+    font-family: 'Montserrat_Bold';
+    padding-bottom: 100px;
+}
+#donate h2:after{
+    content:'';
+    background: #444444;
+    top: 42px;
+    left: 496px;
+    height: 1px;
+    width: 172px;
+    position: absolute;
+}
+#donate h2:before{
+    content:'';
+    background: #444444;
+    top: 48px;
+    right: 510px;
+    height: 1px;
+    width: 156px;
+    position: absolute;
+}
+#donate h3{
+    color: #444444;
+    font-size: 40px;
+    font-family: 'Montserrat_Med';
+    padding-bottom: 100px;
+}
+
+#donate a img{
+    display: inline-block;
+    width: 34%;
+    margin: 22px;
+}
+#donate .int_stl{
+    margin-right: -15px;
+    border-right: 1px solid #444444;
+    padding-bottom: 279px;
+    padding-right: 10px;
+}
+#donate .intl_stl{
+    margin-left: -15px;
+    border-left: 1px solid #444444;
+    padding-left: 10px;
+}
+
+/* ========== Donate Page CSS Code ends ========== */
+
+#scloor{
+    padding-top: 120px;
+}
+#scloor h2{
+    color: #675a5a;
+    font-size: 33px;
+    font-family: 'Montserrat_Bold';
+    padding-bottom: 100px;
+    text-align: center;
+}
+#scloor h2:after{
+    content: '';
+    background: #675a5a;
+    top: 45px;
+    left: 476px;
+    height: 1px;
+    width: 215px;
+    position: absolute;
+}
+#scloor h2:before{
+    content: '';
+    background: #675a5a;
+    top: 50px;
+    right: 502px;
+    height: 1px;
+    width: 170px;
+    position: absolute;
+}
+#scloor .int_stl{
+    margin-right: -15px;
+    border-right: 1px solid #f6f2f2;
+    padding-bottom: 55px;
+    padding-right: 50px;
+}
+#scloor .intl_stl{
+    margin-left: -15px;
+    border-left: 1px solid #f6f2f2;
+    padding-left: 80px;
+    padding-bottom: 156px;
+    
+}
+#scloor .int_stl p{
+    color: #675a5a;
+    font-size: 18px;
+    font-family: 'Montserrat_Reg';
+}
+#scloor .ipt_bb{
+    padding-top: 25px;
+}
+#scloor h3{
+    padding-bottom: 15px;
+    color: #675a5a;
+    font-size: 18px;
+}
+#scloor .intl_stl .send{
+    border: 2px solid #118def;
+    border-radius: 45px;
+    padding: 5px 73px;
+    font-size: 30px;
+    color: #118def;
+    transition: all linear .2s;
+    margin-top: 70px;
+    margin-left: 30px;
+}
+#scloor .intl_stl .send:hover{
+    color: #fff;
+    background: #118def; 
+}
+#scloor .intl_stl .text_fields{
+    width: 380px;
+    height: 40px;
+    border: 1px solid #dfdfdf;
+    font-size: 14px;
+    padding: 0px 10px;
+    background: #f6f3f3;
+}
+#scloor .intl_stl .text_fields:focus{
+    border-color: #118def;
+}
+#faq{
+    background: #f6f2f2;
+    padding-top: 40px;
+    padding-bottom: 130px;
+}
+#faq h2{
+    color: #675a5a;
+    font-size: 28px;
+    font-family: 'Montserrat_Med';
+    padding-bottom: 150px;
+    text-align: center;
+}
+#faq h2:after{
+    content: '';
+    background: #675a5a;
+    top: 38px;
+    left: 535px;
+    height: 1px;
+    width: 103px;
+    position: absolute;
+}
+#faq h2:before{
+    content: '';
+    background: #675a5a;
+    top: 42px;
+    right: 542px;
+    height: 1px;
+    width: 83px;
+    position: absolute;
+}
+#faq ul li{
+    padding-bottom: 15px;
+    list-style: disc;
+    font-size: 24px;
+    color: #118def;
+}
+#faq ul li a{
+    color: #675a5a;
+    font-size: 24px;
+    transition: all linear .2s;
+}
+#faq ul li a:hover{
+    color: #118def;
+}
+#faq .lst_stl{
+    padding-left: 45px;
+}
+
+/* ========== Schoolarship Page CSS Code ends ========== */
+
+#exam{
+    padding-top: 120px;
+}
+#exam h2{
+    color: #675a5a;
+    font-size: 33px;
+    font-family: 'Montserrat_Bold';
+    text-align: center;
+}
+#exam h2:after{
+    content: '';
+    background: #675a5a;
+    top: 45px;
+    left: 476px;
+    height: 1px;
+    width: 215px;
+    position: absolute;
+}
+#exam h2:before{
+    content: '';
+    background: #675a5a;
+    top: 50px;
+    right: 502px;
+    height: 1px;
+    width: 170px;
+    position: absolute;
+}
+#exam .free_exm{
+    padding-top: 170px;
+    padding-bottom: 170px;
+}
+#exam .free_exm a{
+    color: #fff;
+    background: #118def;
+    font-size: 38px;
+    font-family: 'Montserrat_Bold';
+    border-radius: 5px;
+    padding: 5px 15px;
+    transition: all linear .2s;
+}
+#exam .free_exm a:hover{
+    color: #aaa;
+    background: #118def;
+}
+#exam .paid_exm{
+    padding-top: 170px;
+    padding-bottom: 170px;
+}
+#exam .paid_exm a{
+    color: #fff;
+    background: #118def;
+    font-size: 38px;
+    font-family: 'Montserrat_Bold';
+    border-radius: 5px;
+    padding: 5px 15px;
+    transition: all linear .2s;
+}
+#exam .paid_exm a:hover{
+    color: #aaa;
+    background: #118def;
+}
+#exam_vdo{
+    background: #f6f2f2;
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+#exam_vdo h2{
+    color: #444444;
+    font-size: 28px;
+    font-family: 'Montserrat_Med';
+    padding-bottom: 100px;
+    text-align: center;
+}
+#exam_vdo h2:after{
+    content: '';
+    background: #675a5a;
+    top: 41px;
+    left: 459px;
+    height: 1px;
+    width: 254px;
+    position: absolute;
+}
+#exam_vdo h2:before{
+    content: '';
+    background: #675a5a;
+    top: 46px;
+right: 473px;
+height: 1px;
+width: 216px;
+    position: absolute;
+}
+#exam_vdo p{
+    color: #46bbc6;
+    font-size: 18px;
+    font-family: 'Montserrat_Reg';
+    line-height: 35px;
+}
+#exam_vdo video{
+    width: 445px;
+    height: 320px;
+    padding-top: 20px;
+}
+
+/* ========== Exam Page CSS Code ends ========== */
+
+#exam_free{
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+#exam_free h2{
+    color: #675a5a;
+    font-size: 33px;
+    font-family: 'Montserrat_Bold';
+    text-align: center;
+    padding-bottom: 150px;
+}
+#exam_free h2:after{
+    content: '';
+    background: #675a5a;
+    top: 45px;
+    left: 476px;
+    height: 1px;
+    width: 215px;
+    position: absolute;
+}
+#exam_free h2:before{
+    content: '';
+    background: #675a5a;
+    top: 50px;
+    right: 502px;
+    height: 1px;
+    width: 170px;
+    position: absolute;
+}
+#exam_free ul li{
+    padding-bottom: 15px;
+    list-style: disc;
+    font-size: 22px;
+    color: #118def;
+}
+#exam_free ul li a{
+    color: #675a5a;
+    font-size: 22px;
+    transition: all linear .2s;
+}
+#exam_free ul li a:hover{
+    color: #118def;
+}
+#exam_free .lst_stl{
+    padding-left: 45px;
+}
+
+/* ========== Exam Free Page CSS Code ends ========== */
+
+#exam_paid{
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+#exam_paid h2{
+    color: #675a5a;
+    font-size: 33px;
+    font-family: 'Montserrat_Bold';
+    text-align: center;
+    padding-bottom: 150px;
+}
+#exam_paid h2:after{
+    content: '';
+    background: #675a5a;
+    top: 45px;
+    left: 459px;
+    height: 1px;
+    width: 215px;
+    position: absolute;
+}
+#exam_paid h2:before{
+    content: '';
+    background: #675a5a;
+    top: 50px;
+    right: 487px;
+    height: 1px;
+    width: 170px;
+    position: absolute;
+}
+#exam_paid ul li{
+    padding-bottom: 15px;
+    list-style: disc;
+    font-size: 22px;
+    color: #118def;
+}
+#exam_paid ul li a{
+    color: #675a5a;
+    font-size: 22px;
+    transition: all linear .2s;
+}
+#exam_paid ul li a:hover{
+    color: #118def;
+}
+
+/* ========== Exam Paid Page CSS Code ends ========== */
+
+#scnc_vdo{
+    padding-top: 120px;
+    padding-bottom: 40px;
+}
+#scnc_vdo h2{
+    color: #675a5a;
+    font-size: 33px;
+    font-family: 'Montserrat_Bold';
+    text-align: center;
+    padding-bottom: 150px;
+}
+#scnc_vdo h2:after{
+    content: '';
+    background: #675a5a;
+    top: 45px;
+    left: 485px;
+    height: 1px;
+    width: 162px;
+    position: absolute;
+}
+#scnc_vdo h2:before{
+    content: '';
+    background: #675a5a;
+    top: 50px;
+    right: 500px;
+    height: 1px;
+    width: 141px;
+    position: absolute;
+}
+#scnc_vdo .scnc_stle ul li{
+    margin-bottom: 180px;
+}
+#scnc_vdo .scnc_stle ul li a{
+    padding: 45px 90px;
+    background: #118def;
+    color: #fff;
+    font-size: 28px;
+    font-family: 'Montserrat_Bold';
+    transition: all linear .2s;
+}
+#scnc_vdo .scnc_stle ul li a:hover{
+    box-shadow: 4px 4px 10px #767676;
+}
+#scnc_vdo .scnc_stle1 ul li{
+    margin-bottom: 180px;
+}
+#scnc_vdo .scnc_stle1 ul li a{
+    padding: 45px 65px;
+    background: #118def;
+    color: #fff;
+    font-size: 28px;
+    font-family: 'Montserrat_Bold';
+    transition: all linear .2s;
+}
+#scnc_vdo .scnc_stle1 ul li a:hover{
+    box-shadow: 4px 4px 10px #767676;
+}
+#scnc_vdo .scnc_stle2 ul li{
+    margin-bottom: 180px;
+}
+#scnc_vdo .scnc_stle2 ul li a{
+    padding: 45px 50px;
+    background: #118def;
+    color: #fff;
+    font-size: 28px;
+    font-family: 'Montserrat_Bold';
+    transition: all linear .2s;
+}
+#scnc_vdo .scnc_stle2 ul li a:hover{
+    box-shadow: 4px 4px 10px #767676;
+}
+
+/* ========== Science Section CSS Code ends ========== */
+
+#scnc_vdo_dtl{
+    padding-top: 120px;
+    padding-bottom: 40px;
+}
+#scnc_vdo_dtl .hdre h2{
+    color: #675a5a;
+    font-size: 33px;
+    font-stretch: semi-expanded;
+    text-align: center;
+    padding-bottom: 50px;
+}
+#scnc_vdo_dtl .hdre h2 i{
+    font-size: 33px;
+    padding-right: 8px;
+}
+#scnc_vdo_dtl .hdre h3{
+    color: #fff;
+    font-size: 26px;
+    font-family: 'Montserrat_Bold';
+    background: #118def;
+    padding: 15px 70px;
+    border-radius: 50px;
+    display: inline-block;
+    margin-bottom: 80px;
+    
+}
+#scnc_vdo_dtl .sub_ttl h3{
+    color: #fff;
+    font-size: 26px;
+    font-family: 'Montserrat_Med';
+    background: #118def;
+    padding: 15px 70px;
+    border-radius: 50px;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+#scnc_vdo_dtl .sub_ttl p{
+    color: #444444;
+    font-size: 15px;
+    text-align: left;
+    line-height: 27px;
+}
+#scnc_vdo_dtl .play_btn a i{
+    position: absolute;
+    top: 140px;
+    left: 42%;
+    font-size: 50px;
+    color: #ff0000;
+    width: 100px;
+    height: 100px;
+    transition: all linear 0.3s;
+    border: 20px solid #fff;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 50%;
+    padding-left: 12px;
+}
+#scnc_vdo_dtl .play_btn a:hover i{
+    color: #fff;
+    border: 6px solid #fff;
+    line-height: 88px;
+    text-align: center;
+}
+#scnc_vdo_dtl .sub_part{
+    margin-bottom: 100px;
+}
+
+/* ========== Science video Section CSS Code ends ========== */
+
+#forgot_pass{
+    padding-top: 300px;
+    padding-bottom: 200px;
+}
+#forgot_pass h2{
+    color: #444444;
+    font-size: 24px;
+    font-family: 'Montserrat_Bold';
+    background: #e9ebee;
+    display: inline-block;
+    margin-bottom: 2px;
+}
+#forgot_pass h3{
+    color: #444444;
+    font-size: 18px;
+    display: inline-block;
+    margin-bottom: 2px;
+    padding-bottom: 30px;
+}
+#forgot_pass .con_pass_box{
+    height: 55px;
+    width: 780px;
+    padding: 15px 0 0 25px;
+    background: #e9ebee;
+    display: inline-block;
+    margin-bottom: 1px;
+}
+#forgot_pass .for_pass_box{
+    height: 220px;
+    width: 780px;
+    padding: 30px 30px 30px 25px;
+    background: #e9ebee;
+    display: inline-block;
+}
+#forgot_pass .for_pass_box .sign_fields{
+    width: 380px;
+    height: 35px;
+    border: 1px solid #989898;
+    padding-left: 20px;
+    background: #f9f9f9;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+#forgot_pass .for_pass_box .send{
+    color: #118def;
+    font-size: 18px;
+    padding: 8px 40px;
+    background: none;
+    border: 1px solid #118def;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+#forgot_pass .for_pass_box .cncl{
+    color: #118def;
+    font-size: 18px;
+    padding: 8px 40px;
+    background: none;
+    border: 1px solid #118def;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+
+/* ========== Forgot Password Section CSS Code ends ========== */
+
+#admission{
+    padding-top: 130px;
+}
+#admission h2{
+    color: #444444;
+    font-size: 33px;
+    font-family: 'Montserrat_Bold';
+    padding-bottom: 50px;
+}
+#admission h2:after{
+    content:'';
+    background: #444444;
+    top: 42px;
+    left: 496px;
+    height: 1px;
+    width: 172px;
+    position: absolute;
+}
+#admission h2:before{
+    content:'';
+    background: #444444;
+    top: 48px;
+    right: 510px;
+    height: 1px;
+    width: 156px;
+    position: absolute;
+}
+#admission .hdr_adm h3{
+    color: #444444;
+    font-size: 22px;
+    font-family: 'Montserrat_Bold';
+    padding-bottom: 50px;
+    padding-top: 50px
+}
+#admission .form_stl h3{
+    color: #444444;
+    font-size: 20px;
+    font-family: 'Montserrat_Reg';
+    padding-bottom: 5px;
+}
+#admission .form_stl .text_fields{
+    width: 340px;
+    height: 35px;
+    border: 1px solid #dfdfdf;
+    font-size: 14px;
+    padding: 0px 10px;
+    background: #f6f3f3;
+}
+#admission .form_stl .text_fields:focus{
+    border-color: #118def;
+}
+#admission .form_stl input{
+    margin-bottom: 30px;
+}
+#admission .form_stl .dt_stl{
+    width: 340px;
+    height: 35px;
+    border: 1px solid #dfdfdf;
+    font-size: 14px;
+    padding: 0px 10px;
+    background: #f6f3f3;
+    margin-bottom: 30px;
+}
+#admission .form_stl .dt_stl_mn{
+    width: 110px;
+    height: 35px;
+    border: 1px solid #dfdfdf;
+    font-size: 14px;
+    padding: 0px 10px;
+    background: #f6f3f3;
+    margin-bottom: 30px;
+}
+#admission .form_stl .gender{
+    margin-bottom: 18px;
+}
+#admission .adss_adm h3{
+    color: #444444;
+    font-size: 20px;
+    font-family: 'Montserrat_Reg';
+    padding-bottom: 5px;
+    padding-top: 20px;
+}
+#admission .adss_adm .text_fields{
+    width: 530px;
+    height: 120px;
+    border: 1px solid #dfdfdf;
+    font-size: 14px;
+    padding: 5px 10px;
+    background: #f6f3f3;
+}
+#admission .adss_adm .text_fields:focus{
+    border-color: #118def;
+}
+#admission .adss_adm .text_fields_nbr{
+    width: 530px;
+    height: 35px;
+    border: 1px solid #dfdfdf;
+    font-size: 14px;
+    padding: 0px 10px;
+    background: #f6f3f3;
+}
+#admission .adss_adm .text_fields_nbr:focus{
+    border-color: #118def;
+}
+#admission .hdr_adm h4{
+    color: #444444;
+    font-size: 20px;
+    font-family: 'Montserrat_Reg';
+    padding-bottom: 5px;
+    padding-top: 50px;
+}
+#admission .fmbr_box{
+    width: 480px;
+    height: 35px;
+    border: 1px solid #dfdfdf;
+    font-size: 14px;
+    padding: 0px 10px;
+    background: #f6f3f3;
+}
+#admission .fmbr_box:focus{
+    border-color: #118def;
+}
+#admission .fmbr_box_ads{
+    width: 963px;
+    height: 70px;
+    border: 1px solid #dfdfdf;
+    font-size: 14px;
+    padding: 5px 10px;
+    background: #f6f3f3;
+}
+#admission .fmbr_box_ads:focus{
+    border-color: #118def;
+}
+#admission .hdr_sub{
+    padding: 100px 0;
+}
+#admission .hdr_sub input{
+    border: 1px solid #118def;
+    border-radius: 45px;
+    padding: 4px 60px;
+    font-size: 25px;
+    color: #118def;
+    transition: all linear .2s;
+    margin-left: 10px;
+}
+#admission .hdr_sub input:hover{
+    color: #fff;
+    background: #118def;
+}
+
+/* ========== Admission Section CSS Code ends ========== */
+
+#comeing{
+    padding-top: 180px;
+    padding-bottom: 100px;
+    background: url(../images/coming-soon-page.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#comeing .cmn_sn{
+    padding-top: 100px;
+}
+#comeing .cmn_sn img{
+    padding-right: 8px;
+}
+#comeing .cmn_sn a{
+    color: #01e8ff;
+    font-size: 28px;
+    font-family: 'Montserrat_Bold';
+    text-transform: uppercase;
+    transition: all linear .2s;
+}
+#comeing .cmn_sn a:hover{
+    color: #02b3ff;
+}
+#comeing .cmn_sn a span{
+    color: #0642ff;
+    font-family: 'Montserrat_Reg';
+}
+#comeing .cmn_sn h2{
+    padding-top: 150px;
+    color: #061e37;
+    font-size: 30px;
+    font-family: 'Roboto_Black';
+    text-transform: uppercase;
+    padding-bottom: 40px;
+}
+#comeing .cmn_sn p{
+    color: #90a4ae;
+    font-size: 15px;
+    font-family: 'Roboto_Reg';
+    line-height: 25px;
+}
+#comeing .cmn_sn h3{
+    color: #061e37;
+    font-size: 18px;
+    font-family: 'Roboto_Med';
+    padding-top: 35px;
+    padding-bottom: 120px;
+}
+#comeing .cmn_snu a i{
+    font-size: 50px;
+    color: #fff;
+    transition: all linear .2s;
+}
+#comeing .cmn_snu a i:hover{
+    color: #02b3ff;
+}
+#comeing .coundowncontainer{
+    border-bottom: 1px solid #4bcafc;
+    padding: 210px 0px 84px 29px;
+}
+#comeing .coundowncontainer table .time_stl td{
+    text-align: center;
+    color: #fff;
+    font-size: 60px;
+    font-family: 'Roboto_Black';
+    padding-right: 80px;
+}
+#comeing .coundowncontainer table .time_stl td:Last-child{
+    padding-right: 0px;
+}
+#comeing .coundowncontainer table .name_stl td{
+    text-align: center;
+    color: #c1e2ff;
+    font-size: 18px;
+    font-family: 'Roboto_Reg';
+    padding-right: 80px;
+}
+#comeing .coundowncontainer table .name_stl td:Last-child{
+    padding-right: 0px;
+}
+#comeing .sctu h1{
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Roboto_Black';
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+#comeing .sctu .send{
+    color: #0488ff;
+    font-size: 15px;
+    font-family: 'Roboto_Black';
+    width: 290px;
+    height: 50px;
+    border: 1px solid #fff;
+    padding: 0px 16px;
+    background: #fff;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 20px;
+}
+#comeing .sctu{
+    padding-left: 180px;
+}
+#comeing .sctu .send_fly{
+    width: 50px;
+    height: 50px;
+    background: #f5fcf4;
+    border: 1px solid #f5fcf4;
+    border-radius: 50%;
+    margin-left: 8px;
+    color: #0575ff;
+    font-size: 18px;
+    transition: all linear .2s;
+}
+#comeing .sctu .send_fly:hover{
+    background: #0575ff;
+    color: #fff;
+}
+
+/* ========== Comming Soon Section CSS Code ends ========== */
+
+#prim{
+    padding-top: 150px;
+}
+#prim h2{
+    color: #fff;
+    font-size: 26px;
+    font-family: 'Montserrat_Bold';
+    background: #118def;
+    padding: 15px 70px;
+    border-radius: 50px;
+    display: inline-block;
+    margin-bottom: 80px;
+}
+#prim .sub_left ul li{
+    width: 95%;
+    position: relative;
+    margin-bottom: 100px;
+    margin-right: 50px;
+}
+#prim .sub_left ul li img{
+    width: 100%;
+}
+#prim .sub_left ul li .image_overlay{
+    position: absolute;
+    top:0px;
+    left:0px;
+    z-index: 999;
+    background: rgba(17, 141, 239, .7);
+    height: 100%;
+    width: 100%;
+    transform: scale(0);
+    transition:all .5s linear
+}
+#prim .sub_left ul li .image_overlay h3{
+    font-size: 33px;
+    color: #fff;
+    font-family: 'Montserrat_Bold';
+    border-bottom: 1px solid #045da3;
+    display: inline-block;
+    padding: 66px 8px 5px 8px;
+    margin-bottom: 30px;
+}
+#prim .sub_left ul li .image_overlay p{
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Montserrat_Reg';
+    padding-bottom: 35px;
+}
+#prim .sub_left ul li .image_overlay a{
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Montserrat_Bold';
+    background: #118def;
+    padding: 10px 45px;
+    border-radius: 50px;
+    transition: all linear .2s;
+}
+#prim .sub_left ul li .image_overlay a:hover{
+    color: #118def;
+    background: #fff;
+}
+#prim .sub_left ul li:hover .image_overlay{
+    transform: scale(1);
+}
+#prim .sub_right ul li{
+    width: 95%;
+    position: relative;
+    margin-bottom: 100px;
+    margin-left: 50px;
+}
+#prim .sub_right ul li img{
+    width: 100%;
+}
+#prim .sub_right ul li .image_overlay{
+    position: absolute;
+    top:0px;
+    left:0px;
+    z-index: 999;
+    background: rgba(17, 141, 239, .7);
+    height: 100%;
+    width: 100%;
+    transform: scale(0);
+    transition:all .5s linear
+}
+#prim .sub_right ul li .image_overlay h3{
+    font-size: 33px;
+    color: #fff;
+    font-family: 'Montserrat_Bold';
+    border-bottom: 1px solid #045da3;
+    display: inline-block;
+    padding: 66px 8px 5px 8px;
+    margin-bottom: 30px;
+}
+#prim .sub_right ul li .image_overlay p{
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Montserrat_Reg';
+    padding-bottom: 35px;
+}
+#prim .sub_right ul li .image_overlay a{
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Montserrat_Bold';
+    background: #118def;
+    padding: 10px 45px;
+    border-radius: 50px;
+    transition: all linear .2s;
+}
+#prim .sub_right ul li .image_overlay a:hover{
+    color: #118def;
+    background: #fff;
+}
+#prim .sub_right ul li:hover .image_overlay{
+    transform: scale(1);
+}
+
+/* ========== Primary Section Video CSS Code ends ========== */
+
+#bKash{
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+#bKash h2{
+    font-size: 30px;
+    color: #000;
+    padding-bottom: 100px;
+}
+#bKash h2 span{
+    color: #e3106e;
+}
+#bKash p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #11559d;
+}
+#bKash h4{
+    font-size: 25px;
+    color: #2997d8;
+    padding-top: 200px;
+}
+#bKash .dbbl h2 span{
+    color: #79027f;
+}
+
+/* ========== bKash CSS Code ends ========== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* === responsive code starts === */
+/*  == Tab Device sm ==  */
+@media (min-width:768px) and (max-width:991px){
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+/*  == Mobile Device xs ==  */
+@media (max-width:767px){
+    
+    #header .navbar-brand-centered{
+        left: 0%;
+        transform: none;
+    }
+    #header .navbar-brand-centered a{
+        font-size: 22px;
+    }
+    #header .navbar-brand-centered a img{
+        width: 11%;
+    }
+    #header .navbar-brand-centered a span{
+        font-size: 22px;
+    }
+    #header .navbar{
+        height: 70px;
+    }
+    #header .navbar a{
+        color: #46bbc6;
+    }
+    
+/*  Header Responsive Code Ends  */
+    
+    #footer{
+        padding-top: 34px;
+        padding-bottom: 23px;
+    }
+    #footer .ftext h3 {
+        font-size: 17px;
+        line-height: 25px;
+        padding-bottom: 0px;
+    }
+    #footer ul .foot_act{
+        padding-bottom: 0px;
+        font-size: 27px;
+        color: #118def;
+    }
+    #footer .rsp_one{
+        margin-top: 25px;
+    }
+    #footer .lnge{
+        text-align: center;
+        font-size: 12px;
+    }
+    #bootmftr .foot{
+       text-align: center; 
+    }
+    #footer ul{
+        padding-bottom: 25px;
+    }
+    #footer ul li{
+        padding: 5px 0px;
+    }
+    #footer .lnge .lng_stl{
+        height: 20px;
+        font-size: 10px;
+        width: 120px;
+    }
+    #bootmftr .foot ul li {
+        display: inline-block;
+        float: inherit;
+        font-size: 9px;
+        padding: 0 3px;
+        line-height: 50px;
+    }
+    #bootmftr .foot_icon{
+       text-align: center; 
+    }
+    #bootmftr .foot_icon ul li {
+        display: inline-block;
+        float: inherit;
+        line-height: 50px;
+    }
+    #bootmftr .foot_icon ul li a i{
+        font-size: 20px;
+    }
+    
+/*  Footer Responsive Code Ends  */
+    
+    #team{
+        padding-top: 115px;
+        padding-bottom: 28px;
+    }
+    #team ul li{
+        float: inherit;
+        margin-right: 0px;
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+    
+    /*  Team Responsive Code Ends  */
+    
+    #video{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    #video h2{
+        font-size: 25px;
+    }
+    #video p{
+        padding-top: 26px;
+        line-height: 20px;
+        font-size: 14px;
+    }
+    #video .play_btn{
+        text-align: center;
+        padding-top: 50px;
+    }
+    #video .play_btn a i{
+        position: inherit;
+        top: 0px;
+        left: 0%;
+        font-size: 30px;
+        color: #fff;
+        width: 70px;
+        height: 70px;
+        text-align: center;
+        line-height: 56px;
+        border: 6px solid #fff;
+        padding-left: 5px;
+    }
+    
+/*  Team Responsive Code Ends  */
+    
+    #contact{
+        padding-top: 85px;
+        padding-bottom: 20px;
+    }
+    #contact .cont_item .text_fields{
+        border-radius: 25px;
+        height: 39px;
+        width: 260px;
+        padding: 8px 20px;
+    }
+    #contact .cont_item .message{
+        border-radius: 15px;
+        height: 100px;
+        width: 260px;
+        padding: 8px 20px; 
+    }
+    #contact .cont_img{
+        display: none;
+    }
+    #contact .con_brdr{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    #contact .cont_item .send{
+        height: 40px;
+        width: 130px;
+    }
+    #contact .cont_item h3{
+        padding-top: 22px;
+        color: #827ffe;
+        font-size: 24px;
+    }
+    
+/*  Contact Responsive Code Ends  */    
+    
+    #academic h2{
+        padding: 0 0 10px 0;
+        font-size: 21px;
+    }
+    #academic ul{
+        padding-top: 30px;
+    }
+    #academic ul li a{
+        line-height: 35px;
+    }
+    #academic .lst_ctr{
+        text-align: center;
+    }
+    #academic .lst_ctr img{
+        display: inline-block;
+        width: 20%;
+    }
+    
+    
+    #miscellaneous h2{
+        padding: 0 0 10px 0;
+        font-size: 21px;
+    }
+    #miscellaneous ul{
+        padding-top: 30px;
+    }
+    #miscellaneous ul li a{
+        line-height: 35px;
+    }
+    #miscellaneous .lst_ctr{
+        text-align: center;
+    }
+    #miscellaneous .lst_ctr img{
+        display: inline-block;
+        width: 20%;
+    }
+    
+    
+    #arts h2{
+        padding: 0 0 10px 0;
+        font-size: 21px;
+    }
+    #arts ul{
+        padding-top: 30px;
+    }
+    #arts ul li a{
+        line-height: 35px;
+    }
+    #arts .lst_ctr{
+        text-align: center;
+    }
+    #arts .lst_ctr img{
+        display: inline-block;
+        width: 20%;
+    }
+    
+    
+    #commerce h2{
+        padding: 0 0 10px 0;
+        font-size: 21px;
+    }
+    #commerce ul{
+        padding-top: 30px;
+    }
+    #commerce ul li a{
+        line-height: 35px;
+    }
+    #commerce .lst_ctr{
+        text-align: center;
+    }
+    #commerce .lst_ctr img{
+        display: inline-block;
+        width: 20%;
+    }
+    
+    
+    #science h2{
+        padding: 0 0 10px 0;
+        font-size: 21px;
+    }
+    #science ul{
+        padding-top: 30px;
+    }
+    #science ul li a{
+        line-height: 35px;
+    }
+    #science .lst_ctr{
+        text-align: center;
+    }
+    #science .lst_ctr img{
+        display: inline-block;
+        width: 20%;
+    }
+    
+    
+    #primary h2{
+        padding: 0 0 10px 0;
+        font-size: 21px;
+    }
+    #primary ul{
+        padding-top: 30px;
+    }
+    #primary ul li a{
+        line-height: 35px;
+    }
+    #primary .lst_ctr{
+        text-align: center;
+    }
+    #primary .lst_ctr img{
+        display: inline-block;
+        width: 20%;
+    }
+    
+    
+    #sub_all{
+        padding: 30px 0px;
+    }
+    #sub_all ul li a{
+        line-height: 35px;
+        font-size: 22px;
+    }
+    #sub_all .lst_ctr{
+        text-align: center;
+    }
+    #sub_all ul li{
+        float: inherit;
+        padding-right: 0px;
+    }
+    
+/*  All Subject Responsive Code Ends  */  
+    
+    #banner{
+        padding-top: 70px;
+    }
+    #banner .carousel-caption{
+        top: 5%;
+    }
+    #banner .carousel-inner img{
+        height: 400px;
+    }
+    #banner .carousel-caption ul{
+        margin-top: 30px;
+    }
+    #banner .carousel-caption ul li{
+        float: inherit;
+        line-height: 36px;
+        padding-right: 0px;
+    }
+    #banner .carousel-caption h3{
+        font-size: 22px;
+    }
+    #banner .carousel-caption h4{
+        color: #297d96;
+        font-size: 14px;
+        margin-bottom: 50px;
+    }
+    #banner .carousel-caption a{
+        font-size: 16px;
+        padding: 6px 14px;
+    }
+    #banner .carousel-caption ul li a{
+        font-size: 16px;
+        padding: 6px 16px;
+    }
+    #banner .left_arrow{
+        display: none;
+    }
+    #banner .right_arrow{
+        display: none;
+    }
+    
+/*  Banner Responsive Code Ends  */  
+    
+    #sign_in{
+        padding-bottom: 47px;
+        padding-top: 100px; 
+    }
+    #sign_in h2::before{
+        display: none;
+    }
+    #sign_in h2::after{
+        display: none;
+    }
+    #sign_in h2{
+        padding-top: 9px;
+        font-size: 32px;
+        padding-bottom: 25px;
+    }
+    #sign_in .sign_fields {
+        width: 271px;
+        height: 40px;
+        padding-left: 10px;
+        font-size: 14px;
+    }
+    #sign_in .send {
+        height: 40px;
+        padding: 5px 31px;
+        font-size: 17px;
+        background: #118def;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+    #sign_in input{
+        margin-bottom: 15px;
+    }
+    #sign_in .caccnt {
+        padding-bottom: 0px;
+    }
+    
+/*  Sign In Responsive Code Ends  */  
+    
+    #donate{
+        padding-top: 100px;
+        padding-bottom: 20px;
+    }
+    #donate h2:after{
+        display: none;
+    }
+    #donate h2:before{
+        display: none;
+    }
+    #donate h2{
+        color: #8217ff;
+        margin-bottom: 20px;
+        padding-bottom: 0px;
+        border-bottom: 2px solid #8217ff;
+        display: inline-block;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    #donate h3{
+        display: none;
+    }
+    #donate .int_stl{
+        border-right: 0px;
+        padding-bottom: 50px;
+    }
+    #donate .int_stl a img{
+        margin: 10px;
+        width: 30%;
+    }
+    #donate .intl_stl{
+        border-left: 0px;
+    }
+    #donate .intl_stl a img{
+        margin: 10px;
+        width: 30%;
+    }
+    
+/*  Donate Responsive Code Ends  */  
+    
+    #sign_up{
+        padding-top: 75px;
+    }
+    #sign_up .sn_up ul li{
+        padding-right: 12px;
+    }
+    #sign_up .sn_up ul li a{
+        font-size: 20px;
+    }
+    #sign_up .sn_up h2{
+        padding-top: 42px;
+        font-size: 14px;
+        line-height: 18px;
+        padding-bottom: 21px;
+    }
+    #sign_up .sn_up p{
+        display: none;
+    }
+    #sign_up .crt_ac h1{
+        font-size: 25px;
+        padding-bottom: 12px;
+    }
+    #sign_up .crt_ac h3{
+        padding-bottom: 5px;
+        padding-top: 10px;
+        font-size: 12px;
+    }
+    #sign_up .crt_ac{
+        padding: 0px 0 25px 0px;
+    }
+    #sign_up .crt_ac .text_fields{
+        width: 250px;
+        height: 35px;
+        font-size: 12px
+    }
+    #sign_up .crt_ac .send{
+        padding: 6px 25px;
+        font-size: 12px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        background: #118def;
+        color: #fff;
+    }
+    #sign_up .crt_ac .dt_stl{
+        width: 84px;
+        height: 35px;
+        font-size: 12px;
+        padding: 0px 4px;
+        margin-right: -5px;
+    }
+    #sign_up .crt_ac h4 {
+        font-size: 12px;
+        padding-top: 22px;
+    }
+    
+/*  Sign Up Responsive Code Ends  */
+    
+    #admission{
+        padding-top: 85px;
+    }
+    #admission h2{
+        font-size: 28px;
+        padding-bottom: 0px;
+    }
+    #admission h2:before{
+        display: none;
+    }
+    #admission h2::after{
+        display: none;
+    }
+    #admission .hdr_adm h3{
+        font-size: 12px;
+        padding-bottom: 15px;
+        padding-top: 20px;
+    }
+    #admission .form_stl h3{
+        font-size: 13px;
+    }
+    #admission .form_stl .text_fields{
+        width: 280px;
+        height: 33px;
+        font-size: 11px;
+        padding: 0px 7px;
+    }
+    #admission .form_stl input{
+        margin-bottom: 15px;
+    }
+    #admission .form_stl .dt_stl_mn{
+        width: 91px;
+        height: 33px;
+        font-size: 11px;
+        padding: 0px 7px;
+        margin-bottom: 15px;
+    }
+    #admission .form_stl .dt_stl {
+        width: 280px;
+        height: 33px;
+        font-size: 11px;
+        padding: 0px 7px;
+        margin-bottom: 15px;
+    }
+    #admission .form_stl .gender{
+        margin-bottom: 5px;
+    }
+    #admission .adss_adm h3{
+        font-size: 16px;
+    }
+    #admission .adss_adm .text_fields {
+        width: 280px;
+        height: 76px;
+        font-size: 14px;
+        padding: 5px 7px;
+    }
+    #admission .adss_adm .text_fields_nbr{
+        font-size: 11px;
+        padding: 0px 7px;
+        width: 280px;
+        height: 33px;
+    }
+    #admission .hdr_adm h4 {
+        font-size: 15px;
+        padding-bottom: 8px;
+        padding-top: 0px;
+    }
+    #admission .fmbr_box {
+        width: 280px;
+        height: 33px;
+        font-size: 11px;
+        padding: 0px 7px;
+    }
+    #admission .fmbr_box_ads {
+        width: 280px;
+        height: 68px;
+        font-size: 11px;
+        padding: 3px 7px;
+    }
+    #admission .hdr_sub {
+        padding: 25px 0;
+    }
+    #admission .hdr_sub input{
+        padding: 5px 20px;
+        font-size: 15px;
+        color: #fff;
+        background: #118def;
+        margin-left: 10px;
+    }
+    
+/*  Admission Responsive Code Ends  */  
+    
+    #scloor{
+        padding-top: 90px;
+    }
+    #scloor h2{
+        padding-bottom: 12px;
+        text-decoration: underline;
+        font-size: 29px;
+    }
+    #scloor h2:after{
+        display: none;
+    }
+    #scloor h2:before{
+        display: none;
+    }
+    #scloor .int_stl{
+        border-right: 0px;
+        padding-bottom: 18px;
+    }
+    #scloor .intl_stl{
+        border-left: 0px;
+        padding-left: 0px;
+        margin-left: 0px;
+        padding-bottom: 10px;
+    }
+    #scloor .int_stl p{
+        font-size: 14px;
+        text-align: left;
+    }
+    #scloor .intl_stl .text_fields{
+        width: 260px;
+        height: 35px;
+    }
+    #scloor h3{
+        padding-bottom: 8px;
+    }
+    #scloor .ipt_bb{
+        padding-top: 15px;
+    }
+    #scloor .intl_stl .send{
+        color: #fff;
+        background: #118def;
+        padding: 7px 35px;
+        font-size: 12px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        margin-left: 0px;
+    }
+    #faq{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #faq h2{
+        padding-bottom: 20px;
+        text-decoration: underline;
+    }
+    #faq h2:after{
+        display: none;
+    }
+    #faq h2:before{
+        display: none;
+    }
+    #faq ul li{
+        padding-bottom: 10px;
+        font-size: 15px;
+    }
+    #faq ul li a{
+        font-size: 15px;
+    }
+    #faq .lst_stl{
+        padding-left: 0px;
+    }
+    
+/*  Scalorahep Responsive Code Ends  */  
+    
+    #exam .free_exm{
+        padding-top: 33px;
+        padding-bottom: 30px;
+    }
+    #exam .paid_exm{
+        padding-top: 0px;
+        padding-bottom: 57px;
+    }
+    #exam .free_exm a{
+        font-size: 22px;
+    }
+    #exam .paid_exm a{
+        font-size: 22px;
+    }
+    #exam h2:after{
+        display: none;
+    }
+    #exam h2:before{
+        display: none;
+    }
+    #exam_vdo h2:after{
+        display: none;
+    }
+    #exam_vdo h2:before{
+        display: none;
+    }
+    #exam_vdo h2{
+        font-size: 22px;
+        padding-bottom: 33px;
+    }
+    #exam_vdo p{
+        font-size: 13px;
+        text-align: center;
+    }
+    #exam_vdo video{
+        width: 264px;
+        height: 219px;
+    }
+    #exam_vdo .vdo_mgn{
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    #exam_free{
+        padding-bottom: 30px;
+    }
+    #exam_free ul li{
+        padding-bottom: 10px;
+        font-size: 16px;
+    }
+    #exam_free ul li a{
+        font-size: 16px;
+    }
+    #exam_free h2{
+        text-decoration: underline;
+        padding-bottom: 35px;
+        font-size: 26px;
+    }
+    #exam_free h2:after{
+        display: none;
+    }
+    #exam_free h2:before{
+        display: none;
+    }
+    #exam_paid{
+        padding-bottom: 30px;
+    }
+    #exam_paid ul li{
+        padding-bottom: 10px;
+        font-size: 16px;
+    }
+    #exam_paid ul li a{
+        font-size: 16px;
+    }
+    #exam_paid h2{
+        text-decoration: underline;
+        padding-bottom: 35px;
+        font-size: 26px;
+    }
+    #exam_paid h2:after{
+        display: none;
+    }
+    #exam_paid h2:before{
+        display: none;
+    }
+    
+/*  Exam Responsive Code Ends  */  
+    
+    #stu_prfl .prfl_head{
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+    #stu_prfl .prfl_head h1{
+        text-align: center;
+    }
+    #stu_prfl .prfl_head h2{
+        text-align: center;
+    }
+    #stu_prfl .item_nme{
+        display: none;
+    }
+    #stu_prfl .item_stl .text_fields{
+        margin-top: 15px;
+        width: 260px;
+        height: 37px;
+    }
+    #stu_prfl .item_stl .gndr{
+        margin-top: 18px;
+        width: 260px;
+        height: 37px;
+    }
+    #stu_prfl .item_stl .date_bd{
+        margin-top: 16px;
+        width: 84px;
+        height: 37px;
+    }
+    #stu_prfl .item_stl .country{
+        margin-top: 18px;
+        width: 260px;
+        height: 37px;
+    }
+    #stu_prfl .upgrt{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    #stu_prfl .upgrt .send{
+        padding: 6px 23px;
+        font-size: 22px;
+    }#stu_prfl .item_phto h3{
+        display: none;
+    }
+    
+/*  Student Profile Responsive Code Ends  */  
+    
+    #scnc_vdo {
+        padding-top: 85px;
+        padding-bottom: 0px;
+    }
+    #scnc_vdo h2{
+        font-size: 23px;
+        padding-bottom: 35px;
+    }
+    #scnc_vdo h2:after{
+        display: none;
+    }
+    #scnc_vdo h2:before{
+        display: none;
+    }
+    #scnc_vdo .scnc_stle{
+        margin-left: -15px;
+    }
+    #scnc_vdo .scnc_stle ul li{
+        margin-bottom: 45px;
+    }
+    #scnc_vdo .scnc_stle ul li a{
+        padding: 15px 25px;
+        font-size: 18px;
+    }
+    #scnc_vdo .scnc_stle1 ul li{
+        margin-bottom: 45px;
+    }
+    #scnc_vdo .scnc_stle1 ul li a{
+        padding: 15px 9px;
+        font-size: 18px;
+    }
+    #scnc_vdo .scnc_stle2 ul li{
+        margin-bottom: 45px;
+    }
+    #scnc_vdo .scnc_stle2 ul li a{
+        padding: 15px 5px;
+        font-size: 18px;
+    }
+    
+/*  Science Video Responsive Code Ends  */
+    
+    #scnc_vdo_dtl {
+        padding-top: 95px;
+        padding-bottom: 20px;
+    }
+    #scnc_vdo_dtl .hdre h2{
+        font-size: 20px;
+        padding-bottom: 15px;
+    }
+    #scnc_vdo_dtl .hdre h2 i {
+        font-size: 22px;
+        padding-right: 4px;
+    }
+    #scnc_vdo_dtl .hdre h3 {
+        font-size: 14px;
+        padding: 8px 20px;
+        margin-bottom: 13px;
+    }
+    #scnc_vdo_dtl .sub_ttl h3 {
+        font-size: 14px;
+        padding: 6px 25px;
+        margin-bottom: 10px;
+    }
+    #scnc_vdo_dtl .sub_ttl p {
+        font-size: 13px;
+        text-align: center;
+        line-height: 21px;
+    }
+    #scnc_vdo_dtl .play_btn a i{
+        top: 51px;
+        left: 40%;
+        font-size: 20px;
+        width: 50px;
+        height: 50px;
+        border: 3px solid #fff;
+        line-height: 43px;
+        text-align: inherit;
+        padding-left: 16px;
+    }
+    #scnc_vdo_dtl .play_btn a:hover i{
+        color: #fff;
+        border: 3px solid #fff;
+        line-height: 43px;
+        text-align: inherit;
+    }
+    #scnc_vdo_dtl .sub_part{
+        margin-bottom: 42px;
+    }
+    
+/*  Science Video Details Responsive Code Ends  */ 
+    
+    #prim{
+        padding-top: 80px;
+    }
+    #prim h2{
+        font-size: 20px;
+        padding: 8px 25px;
+        margin-bottom: 19px;
+    }
+    #prim .sub_left ul li .image_overlay h3 {
+        font-size: 20px;
+        padding: 7px 2px 0px 2px;
+        margin-bottom: 8px;
+    }
+    #prim .sub_right ul li .image_overlay h3 {
+        font-size: 20px;
+        padding: 7px 2px 0px 2px;
+        margin-bottom: 8px;
+    }
+    #prim .sub_left ul li .image_overlay p {
+        font-size: 12px;
+        padding-bottom: 9px;
+        color: #e0aeae;
+    }
+    #prim .sub_right ul li .image_overlay p {
+        font-size: 12px;
+        padding-bottom: 9px;
+        color: #e0aeae;
+    }
+    #prim .sub_left ul li .image_overlay a {
+        font-size: 12px;
+        padding: 6px 25px;
+    }
+    #prim .sub_right ul li .image_overlay a {
+        font-size: 12px;
+        padding: 6px 25px;
+    }
+    #prim .sub_left ul li .image_overlay{
+        transform: scale(1);
+    }
+    #prim .sub_right ul li .image_overlay{
+        transform: scale(1);
+    }
+    #prim .sub_left ul li {
+        width: 100%;
+        margin-bottom: 40px;
+        margin-right: 0px;
+    }
+    #prim .sub_right ul li{
+        width: 100%;
+        margin-bottom: 40px;
+        margin-left: 0px
+    }
+    
+    
+    
+/*  Primary Video Details Responsive Code Ends  */  
+   
+    #comeing{
+        padding-top: 90px;
+        padding-bottom: 50px;
+        background: #9338cc;
+    }
+    #comeing .cmn_sn a{
+        display: none;
+    }
+    #comeing .cmn_sn{
+        padding-top: 0px;
+    }
+    #comeing .cmn_sn h2{
+        padding-bottom: 10px;
+        text-align: center;
+        padding-top: 0px;
+        font-size: 25px;
+    }
+    #comeing .cmn_sn p{
+        color: #aaa;
+        text-align: center;
+        line-height: 20px;
+    }
+    #comeing .cmn_sn h3{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    #comeing .cmn_snu .shre a{
+        display: none;
+    }
+    #comeing .coundowncontainer{
+        border-bottom: 2px solid #000;
+        padding: 0px 0 20px 12px;
+    }
+    #comeing .coundowncontainer table .time_stl td{
+        color: #000;
+        font-size: 45px;
+        padding-right: 30px;
+    }
+    #comeing .coundowncontainer table .time_stl td:last-child{
+        padding-right: 0px;
+    }
+    #comeing .coundowncontainer table .name_stl td{
+        color: #aaa;
+        font-size: 12px;
+        padding-right: 30px;
+    }
+    #comeing .coundowncontainer table .name_stl td:last-child{
+        padding-right: 0px;
+    }
+    #comeing .coundowncontainer .name_stl ul li{
+        padding-right: 10px;
+        padding-left: 10px;
+        color: #aaa;
+        font-size: 12px;
+    }
+    #comeing .sctu{
+        padding-left: 0px;
+    }
+    #comeing .sctu h1{
+        padding-top: 10px;
+        padding-bottom: 15px;
+        color: #aaa;
+    }
+    #comeing .sctu .send{
+        font-size: 11px;
+        width: 210px;
+        height: 38px;
+        border: 1px solid #aaa;
+        padding: 0px 10px;
+    }
+    #comeing .sctu .send_fly{
+        width: 38px;
+        height: 38px;
+        font-size: 13px;
+        margin-left: 0px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+/* == all ends == */
